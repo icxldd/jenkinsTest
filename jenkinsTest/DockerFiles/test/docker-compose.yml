@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  jenkins:
+    image: kaulse/jenkins
+    user: root
+    volumes:
+      - /var/run/jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock

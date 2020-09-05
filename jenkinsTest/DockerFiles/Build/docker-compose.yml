@@ -6,5 +6,5 @@ services:
   jenkins-test:
    image: ${DockerHub_Registry}/jenkins-test:${DockerImage_Tag}
    build:
-     context: .
-     dockerfile: ../../Dockerfile
+     context: ../../../
+     dockerfile: ./jenkinsTest/Dockerfile

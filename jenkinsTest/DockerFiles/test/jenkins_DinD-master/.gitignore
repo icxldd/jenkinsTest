@@ -1,0 +1,4 @@
+jenkins_home
+.DS_Store
+docker-compose-Linux-x86_64
+*tmp*
