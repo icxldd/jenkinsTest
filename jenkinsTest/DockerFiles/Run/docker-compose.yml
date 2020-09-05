@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+
+  app-microservice-jenkins-test:
+    container_name: app-microservice-jenkins-test-${ContainerSuffix}
+    image: ${DockerHub_Registry}/jenkins-test:${DockerImage_Tag}
+    ports:
+      - "1111:80"
+    networks:
+      - morejeenet
+    restart: always
+
+
+networks:
+  morejeenet:

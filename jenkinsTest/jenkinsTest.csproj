@@ -12,4 +12,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.4.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DockerFiles\Build\" />
+    <Folder Include="DockerFiles\Run\" />
+  </ItemGroup>
+
 </Project>
